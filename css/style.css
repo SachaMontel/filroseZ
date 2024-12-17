@@ -1,0 +1,155 @@
+
+body::after {
+    content: "";
+    background: rgba(255, 255, 255, 0.5); /* Ici, vous pouvez changer la couleur et l'opacité */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('../img/photo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+	padding-top: 1.3em;
+	padding-bottom: .2em;
+	font-size: 3em;
+}
+
+h1 em {
+	font-size: .5em;
+	font-weight: 400;
+}
+
+.camptype {
+	font-weight: 400;
+	font-size: .65em;
+    color: black;
+}
+
+h1 p {
+	font-size: 1.5em;
+	margin-bottom: -.4em;
+	margin-top: -.2em;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+h2 {
+	padding-top: 1.5em;
+	font-weight: 300;
+	font-style: italic;
+}
+
+h3 {
+	padding-top: .5em;
+	font-weight: 300;
+}
+
+table {
+	margin-top: 3em;
+	margin-bottom: 3em;
+	width: 100%;
+}
+
+td {
+	max-width: 90px;
+    text-align: ; /* Changez cela en 'center' ou 'right' si vous voulez un alignement différent */
+}
+
+.bonus {
+	color: #000044;
+	font-weight: 900;
+	font-size: 1.3em;
+}
+
+.bonus-pos {
+	color: #00aa00;
+	font-weight: 900;
+}
+
+.bonus-neg {
+	color: #aa0000;
+	font-weight: 900;
+}
+
+.bonus-or {
+	color: goldenrod;
+	font-weight: 900;
+}
+
+.score {
+	color: #000044;
+	font-weight: 900;
+}
+
+.custom-header {
+	color: #eee;
+	background-image: url('../img/bds_2024.png');
+	background-size: cover;
+	background-position: center 57%;
+}
+
+.container {
+	padding-bottom: 2em;
+	background-color: #ffffff;
+}
+
+.h_container {
+	min-height: 40vh;
+	background-color: transparent;
+}
+
+ul {
+	padding-top: 2em;
+	display: inline-block;
+	text-align: left;
+	list-style: none;
+	margin-left: -2em;
+}
+
+li {
+	font-weight: 300;
+	font-size: 1.3em;
+}
+
+.logo {
+	width: 2em;
+}
+
+.form-control {
+	margin-bottom: .5em;
+}
+
+.main_page {
+	background-color: #ffffff;
+	width: 100%;
+}
+
+.novis {
+	visibility: hidden;
+}
+
+.announces {
+	border-spacing: 0 1em;
+	border-collapse: separate;
+}
+
+.announces tr td:nth-child(1) {
+	text-align: right;
+	padding-right: 3em;
+	vertical-align: baseline;
+}
+.announces tr td:nth-child(2) {
+	text-align: left;
+	padding-left: 1em;
+	border-left: 1px solid #000044;;
+}
